@@ -1,0 +1,34 @@
+body {
+  font-family: sans-serif;
+}
+
+.movie-card {
+  display: inline-block;
+  width: 300px;
+  height: 500px;
+  margin: 10px;
+  text-align: center;
+  vertical-align: top;
+}
+
+.movie-card img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.movie-card h2 {
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+
+.movie-card p {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
